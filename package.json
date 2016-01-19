@@ -1,0 +1,45 @@
+{
+	"name": "rg",
+	"displayName": "vscode-symitar-repgen",
+	"description": "Symitar RepGen Syntax",
+	"version": "0.1.0",
+	"publisher": "disshishkov",
+    "author": 
+    {
+        "name": "Dis Shishkov",
+        "email": "dis.shishkov@outlook.com"
+    },
+    "licenses": 
+    [
+        {
+            "type": "MIT",
+            "url": ""
+        }
+    ],
+    "repository": {
+        "type": "hg",
+        "url": ""
+    },
+    "bugs": {
+        "url": ""
+    },
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "rg",
+			"aliases": ["Symitar RepGen", "rg"],
+			"extensions": [".RG"],
+			"configuration": "./rg.configuration.json"
+		}],
+		"grammars": [{
+			"language": "rg",
+			"scopeName": "source.rg",
+			"path": "./syntaxes/rg.plist"
+		}]
+	}
+}

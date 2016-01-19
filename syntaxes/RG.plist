@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>comment</key>
+	<string>Symitar RepGen Syntax</string>
+	<key>fileTypes</key>
+	<array>
+		<string>RG</string>
+	</array>	
+	<key>name</key>
+	<string>RepGen</string>
+	<key>patterns</key>
+	<array>
+        <dict>
+			<key>include</key>
+			<string>#comments</string>
+		</dict>
+        
+        <dict>
+			<key>match</key>
+			<string>\b\d+\b</string>
+			<key>name</key>
+			<string>constant.numeric.rg</string>
+		</dict>        
+        
+        <dict>
+			<key>begin</key>
+			<string>'</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.rg</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>'</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end.rg</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>string.quoted.single.rg</string>
+		</dict>	
+        
+		<dict>
+			<key>begin</key>
+			<string>"</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.rg</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>"</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end.rg</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>string.quoted.double.rg</string>
+		</dict>		
+		
+		<dict>
+			<key>begin</key>
+			<string>\[</string>
+			<key>captures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.rg</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>\]</string>
+			<key>name</key>
+			<string>comment.block.rg</string>
+		</dict>
+		
+		<dict>
+			<key>match</key>
+			<string>(?i)\b(define|include|do|end|if|else|for|each|to|then|while|call|procedure|target|print|set|with)\b</string>
+			<key>name</key>
+			<string>keyword.control.rg</string>
+		</dict>
+        
+        <dict>
+            <key>captures</key>
+			<dict>
+                <key>2</key>
+				<dict>
+					<key>name</key>
+					<string>constant.other.types.rg</string>
+				</dict>
+            </dict>
+            <key>match</key>
+			<string>(?i)(=\s*)(\b(MONEY|NUMBER|CHARACTER|date))\b[^\(]</string>
+        </dict>
+
+        <dict>
+			<key>match</key>
+			<string>(?i)\b(ARRAY)\b</string>
+			<key>name</key>
+			<string>constant.other.array.rg</string>
+		</dict>
+        
+		<dict>
+			<key>match</key>
+			<string>(?i)\b(MONEY|format|date|MONTH|YEAR|HOUR|DAYOFWEEK|GETDATADATE|FILEOPEN|FILECLOSE|FILEWRITELINE|FILEDELETE|VALUE|ANYWARNING|ANYSERVICE|CHARACTERSEARCH|SEGMENT|LENGTH)\b\(</string>
+			<key>name</key>
+			<string>support.function.rg</string>
+		</dict>
+        
+        <dict>
+			<key>match</key>
+			<string>(?i)\b(SYMCONNECT|ACCOUNT|title|newline|SYSMEMOMODE|SYSTEMDATE|SYSACTUALTIME|TRACKING|Hold|Share|loan|SYSACTUALDATE|loc|FMPERFORM|REVISE|TRANPERFORM|PREFERENCE)\b</string>
+			<key>name</key>
+			<string>constant.language.rg</string>
+		</dict>
+
+		<dict>
+			<key>match</key>
+			<string>(?i)\b(and|or|not)\b</string>
+			<key>name</key>
+			<string>keyword.operator.rg</string>
+		</dict>
+        
+        <dict>
+			<key>match</key>
+			<string>(?i)(@RG([A-Za-z])+([0-9])+)</string>
+			<key>name</key>
+			<string>constant.string.source.rg</string>
+		</dict>
+        
+	</array>
+	<key>scopeName</key>
+	<string>source.rg</string>
+	<key>uuid</key>
+	<string>868f7ff1-b939-4c91-90fb-5e9a6a572110</string>
+</dict>
+</plist>
