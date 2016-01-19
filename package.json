@@ -13,15 +13,15 @@
     [
         {
             "type": "MIT",
-            "url": ""
+            "url": "https://bitbucket.org/DuC/vscode-symitar-repgen/src/98640ea17ee97eab7ef1ef53446e6ab8618664ba/LICENSE?fileviewer=file-view-default"
         }
     ],
     "repository": {
         "type": "hg",
-        "url": ""
+        "url": "https://bitbucket.org/DuC/vscode-symitar-repgen"
     },
     "bugs": {
-        "url": ""
+        "url": "https://bitbucket.org/DuC/vscode-symitar-repgen/issues"
     },
 	"engines": {
 		"vscode": "^0.10.1"
