@@ -6,7 +6,7 @@ This extension adds highlighting for .RG files
 ## How to Install
 * Press `F1` and typing `extension`
 * Pick `Extensions: Install Extension`
-* Navigate to `vscode-symitar-repgen` and pick it from the list
+* Navigate to `Symitar RepGen` and pick it from the list
 
 
 ## License

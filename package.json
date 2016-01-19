@@ -1,8 +1,9 @@
 {
-	"name": "rg",
-	"displayName": "vscode-symitar-repgen",
-	"description": "Symitar RepGen Syntax",
-	"version": "0.1.0",
+	"name": "vscode-symitar-repgen",
+	"displayName": "Symitar RepGen",
+	"description": "Symitar RepGen Syntax highlighter",
+    "icon": "icon.png",
+	"version": "0.1.6",
 	"publisher": "disshishkov",
     "author": 
     {
