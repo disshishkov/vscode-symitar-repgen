@@ -127,7 +127,7 @@
         
         <dict>
 			<key>match</key>
-			<string>(?i)\b(SYMCONNECT|ACCOUNT|title|newline|SYSMEMOMODE|SYSTEMDATE|SYSACTUALTIME|TRACKING|Hold|Share|loan|SYSACTUALDATE|loc|FMPERFORM|REVISE|TRANPERFORM|PREFERENCE)\b</string>
+			<string>(?i)\b(SYMCONNECT|ACCOUNT|title|newline|SYSMEMOMODE|SYSTEMDATE|SYSACTUALTIME|TRACKING|Hold|Share|loan|SYSACTUALDATE|loc|FMPERFORM|REVISE|TRANPERFORM|PREFERENCE|NAME)\b</string>
 			<key>name</key>
 			<string>constant.language.rg</string>
 		</dict>
