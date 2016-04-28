@@ -108,7 +108,7 @@
 				</dict>
             </dict>
             <key>match</key>
-			<string>(?i)(=\s*)(\b(MONEY|NUMBER|CHARACTER|date|GETPARAMTRKUSERDEF))\b[^\(]</string>
+			<string>(?i)(=\s*)(\b(MONEY|NUMBER|CHARACTER|date))\b[^\(]</string>
         </dict>
 
         <dict>
@@ -127,7 +127,7 @@
         
         <dict>
 			<key>match</key>
-			<string>(?i)\b(SYMCONNECT|ACCOUNT|title|newline|SYSMEMOMODE|SYSTEMDATE|SYSACTUALTIME|TRACKING|Hold|Share|loan|SYSACTUALDATE|loc|FMPERFORM|REVISE|TRANPERFORM|PREFERENCE|NAME)\b</string>
+			<string>(?i)\b(SYMCONNECT|ACCOUNT|title|newline|SYSMEMOMODE|SYSTEMDATE|SYSACTUALTIME|TRACKING|Hold|Share|loan|SYSACTUALDATE|loc|FMPERFORM|REVISE|TRANPERFORM|PREFERENCE|NAME|Stateless|GETPARAMTRKUSERDEF)\b</string>
 			<key>name</key>
 			<string>constant.language.rg</string>
 		</dict>
