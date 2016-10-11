@@ -7,6 +7,9 @@
 	<key>fileTypes</key>
 	<array>
 		<string>RG</string>
+		<string>DEF</string>
+		<string>PRO</string>
+		<string>SUB</string>
 	</array>	
 	<key>name</key>
 	<string>RepGen</string>
@@ -93,7 +96,7 @@
 		
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(define|include|do|end|if|else|for|each|to|then|while|call|procedure|target|print|set|with|setup)\b</string>
+			<string>(?i)\b(define|include|do|end|if|else|for|each|to|then|while|call|procedure|target|print|set|with|setup|Subroutine)\b</string>
 			<key>name</key>
 			<string>keyword.control.rg</string>
 		</dict>

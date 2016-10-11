@@ -1,5 +1,5 @@
 # Symitar Repgen code highlighter 
-This extension adds highlighting for .RG files
+This extension adds highlighting for .RG, .DEF, .PRO, .SUB files
 
 [source code](https://bitbucket.org/DuC/vscode-symitar-repgen) | [issues tracker](https://bitbucket.org/DuC/vscode-symitar-repgen/issues)
 
@@ -7,6 +7,7 @@ This extension adds highlighting for .RG files
 * Press `F1` and typing `extension`
 * Pick `Extensions: Install Extension`
 * Navigate to `Symitar RepGen` and pick it from the list
+* Or use `Extensions` panel to find and install
 
 
 ## License
