@@ -11,4 +11,4 @@ This extension adds highlighting for .RG, .DEF, .PRO, .SUB files
 
 
 ## License
-[MIT](https://bitbucket.org/DuC/vscode-symitar-repgen/src/98640ea17ee97eab7ef1ef53446e6ab8618664ba/LICENSE?fileviewer=file-view-default)
+[MIT](https://bitbucket.org/DuC/vscode-symitar-repgen/raw/1fe6b816b51a6e5f6abe6a46cf9832474c4bb5cc/LICENSE)
