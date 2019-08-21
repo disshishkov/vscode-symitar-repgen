@@ -1,7 +1,7 @@
 # Symitar Repgen code highlighter 
 This extension adds highlighting for .RG, .DEF, .PRO, .SUB files
 
-[source code](https://bitbucket.org/DuC/vscode-symitar-repgen) | [issues tracker](https://bitbucket.org/DuC/vscode-symitar-repgen/issues)
+[source code](https://github.com/disshishkov/vscode-symitar-repgen) | [issues tracker](https://github.com/disshishkov/vscode-symitar-repgen/issues)
 
 ## How to Install
 * Press `F1` and typing `extension`
@@ -11,4 +11,4 @@ This extension adds highlighting for .RG, .DEF, .PRO, .SUB files
 
 
 ## License
-[MIT](https://bitbucket.org/DuC/vscode-symitar-repgen/raw/1fe6b816b51a6e5f6abe6a46cf9832474c4bb5cc/LICENSE)
+[MIT](https://github.com/disshishkov/vscode-symitar-repgen/blob/master/LICENSE)
